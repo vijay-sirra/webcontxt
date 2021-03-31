@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+
+.registration-heading {
+        color: #fff;
+        text-align: center;
+        margin: 24px;
+    }
+.registration {
+    display: flex;
+    justify-content: center;
+    
+    .registration-form {
+        display: block;
+        padding: 24px;
+        background-color: slategrey;
+        margin: auto;
+        min-width: 50%;
+        border: 1px solid white;
+        border-radius: 8px;
+        .label-text {
+            color: white;
+        }
+        .login-errors {
+            color: #bf1650;
+            margin: 0;
+        }
+        .sign-up {
+            border: 1px solid #fff;
+            border-radius: 12px;
+        }
+        .signup-cancel {
+            text-decoration: none;
+            color: #fff;
+            background-color: black;
+            padding: 8px 16px;
+            border: 1px solid #fff;
+            border-radius: 12px;
+            float: right;
+        }
+    }
+}

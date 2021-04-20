@@ -1,5 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 
-.text {
-    color: white;
+.content-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    .logout {
+        padding: 12px 32px;
+    }
 }

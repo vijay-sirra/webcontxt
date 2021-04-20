@@ -9,9 +9,6 @@
       @media(min-width: 425px) and (max-width: 767px) {
         margin-top: 20px;
       }
-      // @media(min-width: 320px) and (max-width: 384px) {
-      //   margin-top: 60px;
-      // }
       .form-container {
         @media(max-width: 767px) {
           display: flex;
@@ -132,26 +129,6 @@
                 color: white;
                 opacity: 1; /* Firefox */
               }
-              // label {
-              //   color: white;
-              //   opacity: 0.4;
-              //   text-align: center;
-              // }
-              // input {
-              //     color: white; 
-              //     .MuiInputBase-input {
-              //     color: white;
-              //   }
-              // }
-              // .MuiOutlinedInput-root {
-              //   border-radius: unset;
-              //   .MuiOutlinedInput-notchedOutline {
-              //     border: 1px solid white;
-              //   }
-              // }
-              // .Mui-focused .MuiOutlinedInput-notchedOutline {
-              //   border-color: white;
-              // }
             }
           }
           .login-errors {
